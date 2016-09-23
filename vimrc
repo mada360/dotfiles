@@ -22,6 +22,12 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Easy tables for vim.
 Plugin 'dhruvasagar/vim-table-mode'
 
+" Note taking plugin
+Plugin 'xolox/vim-notes'
+
+" Dependency for vim-notes
+Plugin 'xolox/vim-misc'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
