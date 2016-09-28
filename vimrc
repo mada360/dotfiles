@@ -1,5 +1,5 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
+filetype on                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -57,3 +57,6 @@ nnoremap ; :
 nmap <silent> ,/ :nohlsearch<CR>
 :color desert
 nmap /tm :TableModeToggle
+nmap /sc :setlocal spell spelllang=en_gb
+:let g:notes_directories = ['~/Documents/Notes', '~/GoogleNotes']
+:let g:notes_suffix = '.txt'
